@@ -1,0 +1,49 @@
+@media (min-width: 768px) {
+  .hamburger-btn {
+    display: none;
+  }
+
+  nav {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .nav-list a {
+    border-bottom: none;
+    padding: 0.85rem 1.5rem;
+  }
+
+  .nav-list a.active {
+    border-left: none;
+    border-bottom: 4px solid #64b5f6;
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1.5fr 1fr;
+    align-items: stretch;
+  }
+
+  .about-card,
+  .photo-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-card .card-content,
+  .photo-card .card-content {
+    flex: 1;
+  }
+
+  .courses-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

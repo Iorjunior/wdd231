@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 231 - Página Inicial do Curso</title>
+  <meta name="description" content="Página inicial do curso WDD 231 , certificações e navegação responsiva">
+  <meta name="author" content="Edimilson Lima">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/normalize.css">
+  <link rel="stylesheet" href="estilos/telas-pequenas.css">
+  <link rel="stylesheet" href="estilos/maior.css">
+  <script src="scripts/navegacao.js" defer></script>
+  <script src="scripts/data.js" defer></script>
+  <script src="scripts/curso.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="site-branding">
+        <img src="imagens/logo.svg" alt="Logotipo do site" width="40" height="40">
+        <span class="site-title">Edimilson Lima</span>
+      </div>
+      <button id="hamburgerBtn" class="hamburger-btn" aria-label="Abrir menu de navegação" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <nav>
+    <ul id="navList" class="nav-list">
+      <li><a href="index.html" class="active">Página Inicial</a></li>
+      <li><a href="#">Projeto da Câmara</a></li>
+      <li><a href="#">Projeto Final</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1 class="page-title">Página Inicial</h1>
+
+    <div class="dashboard-grid">
+      <section class="card about-card">
+        <h2>Sobre Mim</h2>
+        <div class="card-content">
+          <p>
+            Olá! Sou estudante de Desenvolvimento de Software com foco em tecnologias Web Frontend. 
+            Busco aprimorar continuamente minhas habilidades na criação de interfaces responsivas, 
+            acessíveis e de alta performance utilizando padrões modernos de desenvolvimento.
+          </p>
+        </div>
+      </section>
+
+      <section class="card photo-card">
+        <h2>Foto do Estudante</h2>
+        <div class="card-content">
+          <img class="student-photo" src="imagens/profile.jpeg" alt="Foto do Estudante" width="400" height="400" loading="lazy">
+        </div>
+      </section>
+
+      <section class="card courses-section">
+        <h2>Cursos de Certificado Web</h2>
+        <div class="card-content">
+          <div class="filter-buttons">
+            <button type="button" class="filter-btn active" data-filter="all">Todos</button>
+            <button type="button" class="filter-btn" data-filter="cse">CSE</button>
+            <button type="button" class="filter-btn" data-filter="wdd">WDD</button>
+          </div>
+          <div id="coursesContainer" class="courses-container"></div>
+          <p class="credits-summary">O total de créditos para os cursos listados acima é <span id="totalCredits">0</span></p>
+        </div>
+      </section>
+    </div>
+
+    <div class="social-links">
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="Acessar perfil no GitHub">
+        <img src="imagens/github.svg" alt="Ícone do GitHub" width="32" height="32">
+      </a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="Acessar perfil no LinkedIn">
+        <img src="imagens/linkedin.svg" alt="Ícone do LinkedIn" width="32" height="32">
+      </a>
+      <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="Acessar perfil no X (Twitter)">
+        <img src="imagens/x-twitter.svg" alt="Ícone do X (Twitter)" width="32" height="32">
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="anoAtual"></span> | Edimilson Lima | Brasil</p>
+    <p id="ultimaModificacao"></p>
+  </footer>
+</body>
+</html>
