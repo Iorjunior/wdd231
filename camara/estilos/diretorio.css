@@ -97,6 +97,7 @@ header {
 
 nav {
   background-color: var(--primary-light);
+  color: var(--text-light);
 }
 
 .nav-list {
@@ -106,6 +107,7 @@ nav {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  color: var(--text-light);
 }
 
 .nav-list.open {
