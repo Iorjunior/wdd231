@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Pão de Açúcar Supermercados",
+    "address": "Av. Fernandes Lima, 1234, Maceió - AL 57050-000",
+    "phone": "(82) 3336-1000",
+    "website": "https://www.gpabr.com",
+    "image": "pao-de-acucar.webp",
+    "membershipLevel": 3,
+    "description": "Rede de supermercados premium com foco em qualidade e variedade."
+  },
+  {
+    "name": "Usina Coruripe",
+    "address": "Rua Barão de Penedo, 61, Maceió - AL 57020-900",
+    "phone": "(82) 2121-5000",
+    "website": "https://www.coruripe.com.br",
+    "image": "usina-coruripe.webp",
+    "membershipLevel": 3,
+    "description": "Uma das maiores produtoras de açúcar e etanol do país."
+  },
+  {
+    "name": "Brasal Refrigerantes",
+    "address": "Distrito Industrial, Av. Governador Afrânio Lages, 500, Maceió - AL",
+    "phone": "(82) 3311-2200",
+    "website": "https://www.cocacolabrasil.com.br",
+    "image": "brasal.webp",
+    "membershipLevel": 2,
+    "description": "Fabricante autorizada de produtos Coca-Cola para Alagoas."
+  },
+  {
+    "name": "Casal - Companhia de Saneamento de Alagoas",
+    "address": "Rua Cincinato Pinto, 184, Maceió - AL 57020-160",
+    "phone": "(82) 3315-7100",
+    "website": "https://www.casal.al.gov.br",
+    "image": "casal.webp",
+    "membershipLevel": 2,
+    "description": "Responsável pelo abastecimento de água e esgotamento sanitário em AL."
+  },
+  {
+    "name": "Farmácias Pague Menos",
+    "address": "Av. Gustavo Paiva, 2850, Maceió - AL 57036-000",
+    "phone": "(82) 3322-4500",
+    "website": "https://www.paguemenos.com.br",
+    "image": "pague-menos.webp",
+    "membershipLevel": 2,
+    "description": "Rede de farmácias com foco em preços acessíveis e saúde da população."
+  },
+  {
+    "name": "Hotel Jatiúca Resort",
+    "address": "Rua Lagoa da Anta, 220, Maceió - AL 57036-900",
+    "phone": "(82) 2121-2000",
+    "website": "https://www.jatiucaresort.com.br",
+    "image": "jatiuca.webp",
+    "membershipLevel": 3,
+    "description": "Resort cinco estrelas à beira das famosas lagoas de Maceió."
+  },
+  {
+    "name": "Colégio Marista Maceió",
+    "address": "Rua das Palmeiras, 150, Ponta Verde, Maceió - AL 57035-260",
+    "phone": "(82) 2123-3300",
+    "website": "https://www.marista.edu.br",
+    "image": "marista.webp",
+    "membershipLevel": 1,
+    "description": "Instituição de ensino com tradição de excelência acadêmica em Alagoas."
+  },
+  {
+    "name": "Construtora Cione",
+    "address": "Av. da Paz, 1430, Maceió - AL 57008-900",
+    "phone": "(82) 3336-7890",
+    "website": "https://www.cione.com.br",
+    "image": "cione.webp",
+    "membershipLevel": 1,
+    "description": "Incorporadora e construtora com décadas de projetos em todo o estado."
+  }
+]
