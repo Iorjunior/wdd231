@@ -154,6 +154,7 @@ main {
   margin-bottom: 1.5rem;
   box-shadow: var(--shadow-sm);
   background-color: var(--primary-color);
+  color: var(--text-light);
 }
 
 .hero-img {
