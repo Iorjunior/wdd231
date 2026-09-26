@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diretório de Membros | Câmara de Comércio de Alagoas</title>
-  <meta name="description" content="Diretório de empresas associadas à Câmara de Comércio de Alagoas. Encontre empresas locais, seus contatos e informações.">
+  <title>Câmara de Comércio de Alagoas | Confirmação de Associação</title>
+  <meta name="description" content="Confirmação de recebimento do pedido de associação à Câmara de Comércio de Alagoas.">
   <meta name="author" content="Edimilson Lima">
 
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://iorjunior.github.io/wdd231/camara/diretorio.html">
-  <meta property="og:title" content="Diretório de Membros | Câmara de Comércio de Alagoas">
-  <meta property="og:description" content="Encontre empresas locais associadas à Câmara de Comércio de Alagoas. Diretório completo com contatos e informações.">
+  <meta property="og:url" content="https://iorjunior.github.io/wdd231/camara/agradecimento.html">
+  <meta property="og:title" content="Câmara de Comércio de Alagoas | Confirmação de Associação">
+  <meta property="og:description" content="Agradecemos seu pedido de associação à Câmara de Comércio de Alagoas.">
   <meta property="og:image" content="https://iorjunior.github.io/wdd231/camara/imagens/og-camara.webp">
 
   <link rel="icon" type="image/svg+xml" href="imagens/favicon.svg">
@@ -19,8 +19,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="estilos/normalize.css">
-  <link rel="stylesheet" href="estilos/diretorio.css">
-  <script src="scripts/diretorio.js" defer></script>
+  <link rel="stylesheet" href="estilos/agradecimento.css">
+  <script src="scripts/agradecimento.js" defer></script>
 </head>
 <body>
   <header>
@@ -41,32 +41,35 @@
   <nav aria-label="Navegação principal">
     <ul id="navList" class="nav-list" role="list">
       <li><a href="index.html">Início</a></li>
-      <li><a href="diretorio.html" class="active" aria-current="page">Diretório</a></li>
+      <li><a href="diretorio.html">Diretório</a></li>
       <li><a href="associacao.html">Associe-se</a></li>
       <li><a href="sobre.html">Sobre</a></li>
     </ul>
   </nav>
 
   <main>
-    <h1 class="page-title">Diretório de Membros</h1>
-
-    <div class="view-controls" role="group" aria-label="Alternar visualização">
-      <button id="btnGrid" class="view-btn active" aria-pressed="true" title="Visualização em grade">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M3 3h8v8H3zm10 0h8v8h-8zM3 13h8v8H3zm10 0h8v8h-8z"/>
+    <section class="thank-you-card" aria-labelledby="thankYouTitle">
+      <div class="success-badge" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
         </svg>
-        Grade
-      </button>
-      <button id="btnList" class="view-btn" aria-pressed="false" title="Visualização em lista">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M3 5h18v2H3zm0 6h18v2H3zm0 6h18v2H3z"/>
-        </svg>
-        Lista
-      </button>
-    </div>
+      </div>
 
-    <div id="membersContainer" class="members-grid" role="list" aria-label="Lista de membros da câmara">
-    </div>
+      <h1 id="thankYouTitle" class="page-title">Agradecemos Seu Pedido de Associação!</h1>
+      <p class="confirmation-message">Recebemos sua solicitação com sucesso. Nossa equipe de relacionamento empresarial entrará em contato em até 2 dias úteis com os próximos passos para a ativação do seu plano.</p>
+
+      <section class="summary-container" aria-labelledby="summaryTitle">
+        <h2 id="summaryTitle" class="summary-title">Resumo da Solicitação</h2>
+        <div id="summaryList" class="summary-list">
+          <p>Carregando dados da inscrição...</p>
+        </div>
+      </section>
+
+      <div class="actions-group">
+        <a href="index.html" class="btn-primary">Voltar à Página Inicial</a>
+        <a href="diretorio.html" class="btn-secondary">Explorar Diretório</a>
+      </div>
+    </section>
   </main>
 
   <footer>
